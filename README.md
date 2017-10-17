@@ -52,3 +52,15 @@ wget http://micropython.org/resources/firmware/esp8266-20170612-v1.9.1.bin
 sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash
 sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash 0 esp8266-*.bin
 ```
+
+### Using Different Baudrate
+
+If the flashing (`ampy`) operation stalls or gives error, it might be because the file you are trying to send is too big and some parts of it may be lost during transmission. To try fixing it. you can try using different speeds. Baudrate parameter is used as `-b` in `ampy`. Default baudrate for AMPY is 115200.
+
+Few examples are below. Note that the baudrates are multipliers of 1800.
+
+```sh
+sudo ampy -b 57600 -p /dev/ttyUSB0 put main.py 
+sudo ampy -b 28800 -p /dev/ttyUSB0 put main.py 
+sudo ampy -b 14400 -p /dev/ttyUSB0 put main.py 
+```
