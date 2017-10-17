@@ -37,7 +37,7 @@ sudo ampy -p /dev/ttyUSB0 put main.py
 
 If for any reason your device is struct, you may need to reset and reflash it.
 
-Sample instructions do accomplish it are below for 32 and 64-bit:
+Sample instructions do accomplish it are below for 32 and 64-bit.
 
 32-bit:
 ```sh
