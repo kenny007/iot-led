@@ -1,4 +1,4 @@
-# IOT LED Example for WEMOS
+# IOT LED Example for WEMOS ESP8266
 
 This example is prepared for Introduction to Computers and Informatics class of TTU CyberSec Eng.
 
