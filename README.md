@@ -2,10 +2,10 @@
 
 This example is prepared for Introduction to Computers and Informatics class of TTU CyberSec Eng.
 
+Details: https://wiki.itcollege.ee/index.php/Category:I600_Introduction_to_Computers_and_Informatics#Assignment:_Set_up_basic_IoT_scenario
+
 ## Requirements
 * Python 3.x
-
-Details: https://wiki.itcollege.ee/index.php/Category:I600_Introduction_to_Computers_and_Informatics#Assignment:_Set_up_basic_IoT_scenario
 
 ## Running
 
