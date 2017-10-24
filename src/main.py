@@ -16,7 +16,7 @@ Content-Type: text/html
   </body>
 </html>
 """
-
+# function to blink the LED lights
 def main():
     s = socket.socket()
     ai = socket.getaddrinfo("0.0.0.0", 8080)
@@ -27,8 +27,9 @@ def main():
     s.bind(addr)
     s.listen(5)
     print("Listening, connect your browser to http://<this_host>:8080/")
-
+ 
     counter = 0
+    
     while True:
         sock, addr = s.accept()
         print("Client address:", addr)
